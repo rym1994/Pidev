@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context="com.example.rym.pidev.Utils.DetailActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="130dp">
+
+        <TextView
+            android:id="@+id/txtnom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="nom"
+            android:layout_marginLeft="130dp"
+            />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="description"
+            android:layout_marginLeft="130dp"
+            />
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="state"
+            android:layout_marginLeft="130dp"
+            />
+
+        <TextView
+            android:id="@+id/deadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="deadline"
+            android:layout_marginLeft="130dp"
+            />
+
+        <Button
+            android:id="@+id/Supprimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="supprimer"
+            android:textColor="#009688"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
